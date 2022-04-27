@@ -1,21 +1,22 @@
-# MOVED TO: https://gitlab.oit.duke.edu/cpsl/csrl
-# Control Synthesis from Linear Temporal Logic Specifications using Model-Free Reinforcement Learning
-
-This repository includes the implementation of the learning-based synthesis algorithm described in this [article](https://arxiv.org/abs/1909.07299).
+# Constrained Policy Optimization with Linear Temporal Logic Objectives
+The repo builds on CSRL project (in this [article](https://arxiv.org/abs/1909.07299).) of Duke University and apply Policy Gradient and TRPO method to the grid world case study.
 ## Dependencies
  - [Python](https://www.python.org/): (>=3.5)
  - [Rabinizer 4](https://www7.in.tum.de/~kretinsk/rabinizer4.html): ```ltl2ldba``` must be in ```PATH``` (```ltl2ldra``` is optional)
  - [NumPy](https://numpy.org/): (>=1.15)
- 
+ - [scipy](https://scipy.org/)
+ - [dill](https://pypi.org/project/dill/)
+
 The examples in this repository also require the following optional libraries for visualization:
  - [Matplotlib](https://matplotlib.org/): (>=3.03)
  - [JupyterLab](https://jupyter.org/): (>=1.0)
  - [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/): (>=7.5)
+ - [tqdm](https://github.com/tqdm/tqdm)
 
 ## Installation
 To install the current release:
 ```
-git clone https://github.com/alperkamil/csrl.git
+git clone https://github.com/ZetongXuan/csrl_PG_TRPO.git
 cd csrl
 pip3 install .
 ```
@@ -67,10 +68,4 @@ array([[1, 3, 0, 2],
 ``` 
 
 ## Examples
-The repository contains a couple of example IPython notebooks:
- - [LTL to Omega-Automata Translation](Examples%20of%20LTL%20to%20Omega-Automata%20Translation.ipynb)
- - [MDPs](Examples%20of%20MDPs.ipynb)
- - [Safe Absorbing States](Safe%20Absorbing%20States.ipynb)
- - [Nursery Scenario](Nursery%20Scenario.ipynb)
-
-Animations of the case studies: [safe_absorbing.mp4](safe_absorbing.mp4) and [nursery.mp4](nursery.mp4).
+Attached an example of PG with 2 discount factor 0.9 0.99 as Jupter Notebook, (https://github.com/ZetongXuan/csrl_PG_TRPO/blob/master/PG_2discount.ipynb)
