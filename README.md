@@ -78,3 +78,5 @@ They both use dill to import a pregererated grid model, which is the same as gen
 These 2 examples' python script is also attached, (https://github.com/ZetongXuan/csrl_PG_TRPO/blob/master/PG.py) (https://github.com/ZetongXuan/csrl_PG_TRPO/blob/master/TRPO_2discount.py)
 They both build the grid world from csrl package
 
+I also tried some tunning for PG, like changing step size, batch size etc. With Q learning result as banchmark, the test results are shown in (https://github.com/ZetongXuan/csrl_PG_TRPO/blob/master/Test%20results.pdf)
+
