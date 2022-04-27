@@ -68,10 +68,13 @@ array([[1, 3, 0, 2],
 ``` 
 
 ## Examples
-They both use dill to import a pregererated grid model, which is the same as generated in the above code, 
+
 
 Attached an example of PG with 2 discount factor 0.99 0.99999 as Jupter Notebook, (https://github.com/ZetongXuan/csrl_PG_TRPO/blob/master/PG_2discount.ipynb)
 
 Attached an example of TRPO with 2 discount factor 0.99 0.99999 as Jupter Notebook, (https://github.com/ZetongXuan/csrl_PG_TRPO/blob/master/TRPO.ipynb)
+They both use dill to import a pregererated grid model, which is the same as generated in the above code, 
 
+These 2 examples' python script is also attached, (https://github.com/ZetongXuan/csrl_PG_TRPO/blob/master/PG.py) (https://github.com/ZetongXuan/csrl_PG_TRPO/blob/master/TRPO_2discount.py)
+They both build the grid world from csrl package
 
