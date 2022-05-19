@@ -52,10 +52,10 @@ def one_trajectroy(initial_state,csrl,theta,length):
         # softmax, from theta to probability
         # Policy, action distributation given state and theta
         
-        # action = A_set[np.random.choice(len(A_set),p= softmax_state(theta,state,csrl) )]
+        action = A_set[np.random.choice(len(A_set),p= softmax_state(theta,state,csrl) )]
         
 
-        action = A_set[np.argmax(softmax_state(theta,state,csrl) )]
+        # action = A_set[np.argmax(softmax_state(theta,state,csrl) )]
         
         states, probs = csrl.transition_probs[state][action]
         state = states[np.random.choice(len(states),p=probs)]
