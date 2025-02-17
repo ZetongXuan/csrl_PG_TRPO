@@ -1,5 +1,8 @@
-# Constrained Policy Optimization with Linear Temporal Logic Objectives
-The repo builds on CSRL project (in this [article](https://arxiv.org/abs/1909.07299).) of Duke University and apply Policy Gradient and TRPO method to the grid world case study.
+# A Necessary and Sufficient Condition for the
+Unique Solution of the Bellman Equation for
+LTL Surrogate Rewards & Constrained Policy Optimization with Linear Temporal Logic Objectives
+
+The repo builds on CSRL project (in this [article](https://arxiv.org/abs/1909.07299).) of Duke University and apply Q-Learning, Model-Checking, Value Iteration (1st work 2025), Policy Gradient and TRPO method (2nd work 2022) to the grid world case study.
 ## Dependencies
  - [Python](https://www.python.org/): (>=3.5)
  - [Rabinizer 4](https://www7.in.tum.de/~kretinsk/rabinizer4.html): ```ltl2ldba``` must be in ```PATH``` (```ltl2ldra``` is optional)
