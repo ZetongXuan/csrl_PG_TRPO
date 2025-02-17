@@ -1,6 +1,4 @@
-# A Necessary and Sufficient Condition for the
-Unique Solution of the Bellman Equation for
-LTL Surrogate Rewards & Constrained Policy Optimization with Linear Temporal Logic Objectives
+# A Necessary and Sufficient Condition for the Unique Solution of the Bellman Equation for LTL Surrogate Rewards & Constrained Policy Optimization with Linear Temporal Logic Objectives
 
 The repo builds on CSRL project (in this [article](https://arxiv.org/abs/1909.07299).) of Duke University and apply Q-Learning, Model-Checking, Value Iteration (1st work 2025), Policy Gradient and TRPO method (2nd work 2022) to the grid world case study.
 ## Dependencies
